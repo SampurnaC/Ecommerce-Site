@@ -1,0 +1,138 @@
+﻿@model SaleMandu.dal.tbl_productDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>tbl_productDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.mobile_number)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.mobile_number)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.product_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.product_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.product_location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.product_location)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.product_price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.product_price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.product_description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.product_description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.condition)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.condition)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.home_delivery)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.home_delivery)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.warranty_type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.warranty_type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.color)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.color)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.features)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.features)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.make_year)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.make_year)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.bought_time)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.bought_time)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.image)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.image)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

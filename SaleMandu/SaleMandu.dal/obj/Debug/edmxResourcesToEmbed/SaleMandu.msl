@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="db_salemanduModelStoreContainer" CdmEntityContainer="db_salemanduEntities">
+    <EntitySetMapping Name="tbl_comment">
+      <EntityTypeMapping TypeName="db_salemanduModel.tbl_comment">
+        <MappingFragment StoreEntitySet="tbl_comment">
+          <ScalarProperty Name="BD" ColumnName="BD" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="comment" ColumnName="comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_productDetail">
+      <EntityTypeMapping TypeName="db_salemanduModel.tbl_productDetail">
+        <MappingFragment StoreEntitySet="tbl_productDetail">
+          <ScalarProperty Name="PID" ColumnName="PID" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="mobile_number" ColumnName="mobile_number" />
+          <ScalarProperty Name="product_name" ColumnName="product_name" />
+          <ScalarProperty Name="product_location" ColumnName="product_location" />
+          <ScalarProperty Name="product_price" ColumnName="product_price" />
+          <ScalarProperty Name="product_description" ColumnName="product_description" />
+          <ScalarProperty Name="condition" ColumnName="condition" />
+          <ScalarProperty Name="home_delivery" ColumnName="home_delivery" />
+          <ScalarProperty Name="warranty_type" ColumnName="warranty_type" />
+          <ScalarProperty Name="color" ColumnName="color" />
+          <ScalarProperty Name="features" ColumnName="features" />
+          <ScalarProperty Name="make_year" ColumnName="make_year" />
+          <ScalarProperty Name="bought_time" ColumnName="bought_time" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="image" ColumnName="image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,10 @@
+c:\users\icreative\documents\visual studio 2015\Projects\SaleMandu\SaleMandu.dal\bin\Debug\SaleMandu.dal.dll.config
+c:\users\icreative\documents\visual studio 2015\Projects\SaleMandu\SaleMandu.dal\bin\Debug\SaleMandu.dal.dll
+c:\users\icreative\documents\visual studio 2015\Projects\SaleMandu\SaleMandu.dal\bin\Debug\SaleMandu.dal.pdb
+c:\users\icreative\documents\visual studio 2015\Projects\SaleMandu\SaleMandu.dal\bin\Debug\EntityFramework.dll
+c:\users\icreative\documents\visual studio 2015\Projects\SaleMandu\SaleMandu.dal\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\icreative\documents\visual studio 2015\Projects\SaleMandu\SaleMandu.dal\bin\Debug\EntityFramework.xml
+c:\users\icreative\documents\visual studio 2015\Projects\SaleMandu\SaleMandu.dal\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\icreative\documents\visual studio 2015\Projects\SaleMandu\SaleMandu.dal\obj\Debug\SaleMandu.dal.csprojResolveAssemblyReference.cache
+c:\users\icreative\documents\visual studio 2015\Projects\SaleMandu\SaleMandu.dal\obj\Debug\SaleMandu.dal.dll
+c:\users\icreative\documents\visual studio 2015\Projects\SaleMandu\SaleMandu.dal\obj\Debug\SaleMandu.dal.pdb
